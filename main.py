@@ -6,18 +6,27 @@ import requests
 import os
 import random
 
+#今天
 today = datetime.now()
+
 start_date = '2022-01-01'
-city = '广东'
+
+#城市
+city = '云浮'
+
+#生日
 birthday = '07-27'
 
 app_id = 'wxc9bd43a2be1e0d7a'
 app_secret = 'e6d9ee543afb468a62ee44f67704dc71'
 
+#用户ID
 user_id = 'oqkP86rWeqGjZhms2WdX1TUx7uhk'
+
+#模板ID
 template_id = 'vk64jkdDcb9bXqs9k7O2-NBJE3QXFLvBFGzTBemPQh4'
 
-
+#获取天气
 def get_weather():
   url = "http://autodev.openspeech.cn/csp/api/v2.1/weather?openId=aiuicus&clientType=android&sign=android&city=" + city
   res = requests.get(url).json()
@@ -28,6 +37,7 @@ def get_count():
   delta = today - datetime.strptime(start_date, "%Y-%m-%d")
   return delta.days
 
+#获取生日
 def get_birthday():
   next = datetime.strptime(str(date.today().year) + "-" + birthday, "%Y-%m-%d")
   if next < datetime.now():
