@@ -27,7 +27,7 @@ app_secret = 'e6d9ee543afb468a62ee44f67704dc71'
 user_id = 'oqkP86rWeqGjZhms2WdX1TUx7uhk'
 
 #模板ID
-template_id = 'vk64jkdDcb9bXqs9k7O2-NBJE3QXFLvBFGzTBemPQh4'
+template_id = 'miGCYWAgIYb0-QMGvjNvTXgIXnnZLIMHakBMEI61kOU'
 
 #获取天气
 def get_weather():
