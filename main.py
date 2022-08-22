@@ -17,7 +17,10 @@ city = '云浮'
 #生日
 birthday = '07-27'
 
+#测试号ID
 app_id = 'wxc9bd43a2be1e0d7a'
+
+#测试号secret
 app_secret = 'e6d9ee543afb468a62ee44f67704dc71'
 
 #用户ID
