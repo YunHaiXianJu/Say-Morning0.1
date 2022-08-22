@@ -24,7 +24,7 @@ app_id = 'wxc9bd43a2be1e0d7a'
 app_secret = 'e6d9ee543afb468a62ee44f67704dc71'
 
 #用户ID
-user_id = 'oqkP86rWeqGjZhms2WdX1TUx7uhk'
+user_id = 'oqkP86rWeqGjZhms2WdX1TUx7uhk,oqkP86rWeqGjZhms2WdX1TUx7uhk'
 
 #模板ID
 template_id = 'A7-5eE3MjW7a4TQwg_NKKe6QgNSm9IiiEtNa79njpSc'
