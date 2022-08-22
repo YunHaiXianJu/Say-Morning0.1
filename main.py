@@ -6,7 +6,7 @@ import requests
 import os
 import random
 
-#今天
+#日期
 today = datetime.now()
 
 start_date = '2022-01-01'
@@ -27,7 +27,7 @@ app_secret = 'e6d9ee543afb468a62ee44f67704dc71'
 user_id = 'oqkP86rWeqGjZhms2WdX1TUx7uhk'
 
 #模板ID
-template_id = 'miGCYWAgIYb0-QMGvjNvTXgIXnnZLIMHakBMEI61kOU'
+template_id = 'DgSn5Bqe59d4vlwyXimqqRfpACVNCwzCjbnFryuk6z4'
 
 #获取天气
 def get_weather():
@@ -36,6 +36,7 @@ def get_weather():
   weather = res['data']['list'][0]
   return weather['weather'], math.floor(weather['temp'])
 
+#
 def get_count():
   delta = today - datetime.strptime(start_date, "%Y-%m-%d")
   return delta.days
