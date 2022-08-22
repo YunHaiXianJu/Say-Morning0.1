@@ -55,7 +55,7 @@ def get_words():
   return words.json()['data']['text']
 
 def get_random_color():
-  return "#%06x" % random.randint(0, red)
+  return "#%06x" % random.randint(0, '#000000')
 
 
 client = WeChatClient(app_id, app_secret)
